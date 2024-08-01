@@ -1,3 +1,4 @@
+title: Rahul Kulkarni
 author:
   name: Rahul Kulkarni
 plugins:
@@ -5,10 +6,15 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+
 include:
   - README.md
-theme: minima
-header_pages:
-  - about.me
+
+# theme: minima
+remote_theme: jekyll/minima
+
 minima:
   skin: dark
+
+header_pages:
+  - about.me
